@@ -1,0 +1,35 @@
+@import 'menu';
+@import 'config';
+@import 'home';
+@import 'footer';
+@import 'responsive';
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body{
+    height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1;
+
+}
+
+header{
+    display: flex;
+    width: 100%;
+    padding: 1em;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+footer {
+    margin-bottom: 0;
+    font-size: 1rem;
+    padding: 1em;
+}

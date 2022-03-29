@@ -1,0 +1,526 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 1.5rem;
+  padding: 0.5em;
+}
+
+.title a {
+  color: #ff4242;
+  text-decoration: none;
+}
+
+.nav .menu-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav .menu-nav_item {
+  list-style: none;
+  margin-right: 2.5em;
+}
+
+.nav .menu-nav_item a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.nav .menu-nav_item a:hover {
+  color: #ff4242;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url(https://images.summitmedia-digital.com/esquiremagph/images/2020/04/16/Gym-Equipment-Quarantine-MAIN-IMAGE.jpg) center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url(https://images.summitmedia-digital.com/esquiremagph/images/2020/04/16/Gym-Equipment-Quarantine-MAIN-IMAGE.jpg) center top;
+  background-size: cover;
+  height: 100%;
+}
+
+.main .story {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .story .my_story {
+  width: 60vw;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1em;
+  padding-bottom: 2em;
+}
+
+.main .story .my_story h2 {
+  padding: 1em 0;
+  color: #ff4242;
+}
+
+.main .story .image {
+  min-width: 40vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 1em;
+}
+
+.main .story .image img {
+  width: 90%;
+  height: 90%;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+.adv .advantages {
+  background-color: #272727;
+}
+
+.adv .advantages h2 {
+  color: #ff4242;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1.75em;
+}
+
+.adv .advantages .advantage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.25rem;
+  color: #fff;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.adv .advantages .advantage .para {
+  padding: 0.75em;
+}
+
+.adv .advantages .advantage .para h3 {
+  padding: 0.5em 0;
+}
+
+.adv .advantages .advantage .adv1 {
+  padding: 1.5em;
+}
+
+.adv .advantages .advantage .adv2 {
+  padding: 1.5em;
+}
+
+.y .Why {
+  background: #fff;
+  padding: 5em 0;
+}
+
+.y .Why h2 {
+  color: #ff4242;
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 1.75em;
+}
+
+.y .Why .why_gym {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.y .Why .why_gym .why {
+  padding: 1em;
+}
+
+.y .Why .why_gym .why h3 {
+  padding: 0.5em;
+}
+
+.ach .achievements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #ff4242;
+  padding: 5em 0;
+}
+
+.ach .achievements .achieve {
+  color: #fff;
+  padding: 5em;
+}
+
+.ach .achievements .achieve h1 {
+  padding-top: 1em;
+}
+
+.ach .achievements .achieve h4 {
+  padding: 0.5em 0;
+}
+
+.crd {
+  background: -webkit-gradient(linear, left top, right top, from(#00c3ff), color-stop(#00ffdd), to(#00ff40));
+  background: linear-gradient(to right, #00c3ff, #00ffdd, #00ff40);
+}
+
+.crd .cards {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.crd .cards .card {
+  text-align: center;
+  padding: 3em;
+  max-width: 40%;
+  background-color: #b3f03b;
+  border: 2px solid black;
+  border-radius: 0.8em;
+  margin: 1em;
+}
+
+.crd .cards .card-item h3 {
+  margin-bottom: 1em;
+}
+
+form {
+  background: #272727;
+  padding: 1em;
+}
+
+form h2 {
+  text-align: center;
+  color: #ff4242;
+  padding: 2em;
+  margin-top: 1em;
+}
+
+form .trial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+}
+
+form .trial .user_input {
+  text-align: center;
+  padding: 2em 0;
+}
+
+form .trial .user_input input {
+  height: 5vh;
+}
+
+form .btn {
+  font-size: 1.25rem;
+  padding: 0.5em;
+  margin: 1em 0;
+  background-color: #ff4242;
+  color: #fff;
+  border-radius: 0.5rem;
+  border: 0.5px solid #ff4242;
+}
+
+form .btn:hover {
+  opacity: 0.8;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+footer {
+  background: #000;
+}
+
+footer .title h2 {
+  color: #ff4242;
+  font-size: 2rem;
+  padding-top: 2em;
+  padding-bottom: 1.25em;
+  text-align: center;
+}
+
+footer .branches {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer .branches .places {
+  color: #fff;
+  padding: 1em;
+}
+
+footer .branches .places h2 {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+footer .branches .places ul li {
+  width: 100%;
+  font-size: 0.75rem;
+  list-style: none;
+  padding: 0.5em;
+}
+
+footer .branches .places ul li a {
+  text-decoration: none;
+}
+
+footer .foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .foot .my_footer {
+  color: #fff;
+}
+
+footer .foot .social-icons {
+  margin-top: 5em;
+}
+
+footer .foot .social-icons a {
+  padding: 0.4em;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  color: #fff;
+}
+
+footer .foot .social-icons a:hover {
+  color: #ff4242;
+}
+
+footer .foot span {
+  margin-top: 2em;
+}
+
+@media screen and (max-width: 500px) {
+  .main header .title {
+    font-size: 1.25rem;
+  }
+  .main header .nav ul li {
+    margin-right: 0.5em;
+  }
+  .main .story {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .main .story .my_story {
+    padding-top: 0em;
+    width: 100%;
+  }
+  .main .story .image {
+    padding: 0 1em;
+  }
+  .main .story .image img {
+    margin-top: 1em;
+    width: 100%;
+  }
+  .adv .advantages .advantage {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .y .Why .why_gym {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ach .achievements {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ach .achievements .achieve {
+    padding: 2.5em;
+  }
+  .crd .cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  footer .branches {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .branches .places h2 {
+    text-align: center;
+  }
+  footer .branches .places ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .branches .places ul li {
+    text-align: center;
+  }
+  footer .foot .social-icons a {
+    -webkit-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    color: #fff;
+  }
+  footer .foot .social-icons a:hover {
+    color: #ff4242;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main header .title {
+    font-size: 1.7rem;
+  }
+  .main header .nav ul li {
+    margin-right: 0.65em;
+  }
+  .main .story {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .main .story .my_story {
+    width: 100%;
+    font-size: 1.25rem;
+    padding-top: 0em;
+  }
+  .main .story .image {
+    padding: 0 1em;
+  }
+  .main .story .image img {
+    margin-top: 1em;
+    width: 100%;
+  }
+  .adv .advantages .advantage {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 1rem;
+  }
+  .ach .achievements .achieve {
+    padding: 2em;
+  }
+  .crd .cards .card {
+    max-width: 100%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 1em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer {
+  margin-bottom: 0;
+  font-size: 1rem;
+  padding: 1em;
+}
+/*# sourceMappingURL=main.css.map */
