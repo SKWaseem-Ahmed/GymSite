@@ -1,32 +1,37 @@
-@import 'config';
+@import "config";
 
-.title{
-    font-size: 1.5rem;
-    padding: 0.5em;
-    a{
-        color: $secondary-color;
-        text-decoration: none;
-    }
+.title {
+  font-size: 1.5rem;
+  padding: 0.5em;
+  a {
+    color: $secondary-color;
+    text-decoration: none;
+  }
 }
 
-.nav{
-   .menu-nav{
-       display: flex;
-       
-       &_item{
-            list-style: none;
-            margin-right: 2.5em ;
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
 
-            a{
-                text-decoration: none;
-                font-size: 1.25rem;
-                color: $text-color;
+.nav {
+  .menu-nav {
+    display: flex;
 
-                &:hover{
-                    color: $secondary-color;
-                    @include transition-ease;
-                }
-            }
+    &_item {
+      list-style: none;
+      margin-right: 2.5em;
+
+      a {
+        text-decoration: none;
+        font-size: 1.25rem;
+        color: $text-color;
+
+        &:hover {
+          color: $secondary-color;
+          @include transition-ease;
         }
-   }
+      }
+    }
+  }
 }

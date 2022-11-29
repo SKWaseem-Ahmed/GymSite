@@ -1,168 +1,144 @@
 @include media-md1 {
-    .main{
-
-        header{
-            .title{
-                font-size: 1.25rem;
-            }
-            .nav{
-                ul{
-                    li{
-                        margin-right: 0.5em;
-                    }
-                }
-            }
-        }
-        .story{
-            flex-direction: column-reverse;
-            .my_story{
-                padding-top: 0em;
-                width: 100%;
-            }
-            .image{
-                padding: 0 1em;
-                img{
-                    margin-top: 1em;
-                    
-                    width: 100%;
-                }
-            }
-        }
-
+  .main {
+    header {
+      .title {
+        font-size: 1.25rem;
+      }
     }
-    .adv{
-
-        .advantages{
-            .advantage{
-                flex-direction: column;
-                
-            }
+    .story {
+      flex-direction: column-reverse;
+      .my_story {
+        padding-top: 0em;
+        width: 100%;
+      }
+      .image {
+        padding: 0 1em;
+        img {
+          margin-top: 1em;
+          width: 100%;
         }
+      }
     }
-    .y{
-
-        .Why{
-            .why_gym{
-                flex-direction: column;
-            }
-        }
+  }
+  .adv {
+    .advantages {
+      .advantage {
+        flex-direction: column;
+      }
     }
-    
-    .ach{
+  }
+  .y {
+    .Why {
+      .why_gym {
+        flex-direction: column;
+      }
+    }
+  }
 
-        .achievements{
-            flex-direction: column;
-    
-            .achieve{
-                padding: 2.5em;
-            }
+  .ach {
+    .achievements {
+      flex-direction: column;
+
+      .achieve {
+        padding: 2.5em;
+      }
+    }
+  }
+
+  .crd {
+    .cards {
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+
+  footer {
+    .branches {
+      flex-direction: column;
+      align-items: center;
+
+      .places {
+        h2 {
+          text-align: center;
         }
+        ul {
+          display: flex;
+          flex-direction: column;
+
+          li {
+            text-align: center;
+          }
+        }
+      }
     }
 
-    .crd{
+    .foot {
+      .social-icons {
+        a {
+          @include transition-ease;
+          color: $text-color;
 
-        .cards{
-            flex-direction: column;
-            width: 100%;
+          &:hover {
+            color: $secondary-color;
+          }
         }
+      }
     }
-    
-
-    footer{
-        .branches{
-            flex-direction: column;
-            align-items: center;
-
-            .places{
-                h2{
-                    text-align: center;
-                }
-                ul{
-                    display: flex;
-                    flex-direction: column;
-
-                    li{
-                        text-align: center;
-                    }
-                }
-            }
-        }
-
-        .foot{
-            .social-icons {
-                a {
-                @include transition-ease;
-                color: $text-color;
-        
-                &:hover {
-                    color: $secondary-color;
-                }
-              }
-            }
-        }
-    }
+  }
 }
 @include media-md2 {
-    .main{
-
-        header{
-            .title{
-                font-size: 1.7rem;
-            }
-            .nav{
-                ul{
-                    li{
-                        margin-right: 0.65em;
-                    }
-                }
-            }
+  .main {
+    header {
+      .title {
+        font-size: 1.7rem;
+      }
+      .nav {
+        .menu-nav {
+          display: none;
         }
-        .story{
-            flex-direction: column-reverse;
-    
-            .my_story{
-                width: 100%;
-                font-size: 1.25rem;
-                padding-top: 0em;
-            }
-            .image{
-                padding: 0 1em;
-                img{
-                    margin-top: 1em;
-                    width: 100%;
-                }
-            }
-        }
-          
+      }
     }
-    .adv{
+    .story {
+      flex-direction: column-reverse;
 
-        .advantages{
-            .advantage{
-                flex-direction: column;
-                font-size: 1rem;
-                
-            
-            }
+      .my_story {
+        width: 100%;
+        font-size: 1.25rem;
+        padding-top: 0em;
+      }
+      .image {
+        padding: 0 1em;
+        img {
+          margin-top: 1em;
+          width: 100%;
         }
+      }
     }
-
-    .ach{
-
-        .achievements{
-    
-            .achieve{
-                padding: 2em;
-            }
-        }
+  }
+  .adv {
+    .advantages {
+      .advantage {
+        flex-direction: column;
+        font-size: 1rem;
+      }
     }
-    .crd{
-        .cards{
-            .card{
-                max-width: 100%;
-            }
-        }
-    }
-    
+  }
 
+  .ach {
+    .achievements {
+      .achieve {
+        padding: 2em;
+      }
+    }
+  }
+  .crd {
+    .cards {
+      .card {
+        max-width: 100%;
+      }
+    }
+  }
+  .nav {
+    display: none;
+  }
 }
