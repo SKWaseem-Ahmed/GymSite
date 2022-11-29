@@ -15,6 +15,15 @@
   text-decoration: none;
 }
 
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .nav .menu-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -46,9 +55,11 @@
 }
 
 .main {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url(https://images.summitmedia-digital.com/esquiremagph/images/2020/04/16/Gym-Equipment-Quarantine-MAIN-IMAGE.jpg) center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url(https://images.summitmedia-digital.com/esquiremagph/images/2020/04/16/Gym-Equipment-Quarantine-MAIN-IMAGE.jpg) center top;
+  background: -webkit-gradient(linear, left top, right top, from(#272727), to(transparent)), url(https://janpronortheastwisconsin.com/wp-content/uploads/2020/09/downside-hotel-gyms-2.jpg) center top;
+  background: linear-gradient(to right, #272727, transparent), url(https://janpronortheastwisconsin.com/wp-content/uploads/2020/09/downside-hotel-gyms-2.jpg) center top;
   background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 100%;
 }
 
@@ -78,23 +89,24 @@
 }
 
 .main .story .image {
-  min-width: 40vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: auto;
+  width: 40%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-bottom: 1em;
+  border-radius: 0.4rem;
+  overflow: hidden;
 }
 
 .main .story .image img {
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
           box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
 }
@@ -369,9 +381,6 @@ footer .foot span {
   .main header .title {
     font-size: 1.25rem;
   }
-  .main header .nav ul li {
-    margin-right: 0.5em;
-  }
   .main .story {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -384,6 +393,7 @@ footer .foot span {
   }
   .main .story .image {
     padding: 0 1em;
+    width: 100%;
   }
   .main .story .image img {
     margin-top: 1em;
@@ -455,8 +465,8 @@ footer .foot span {
   .main header .title {
     font-size: 1.7rem;
   }
-  .main header .nav ul li {
-    margin-right: 0.65em;
+  .main header .nav .menu-nav {
+    display: none;
   }
   .main .story {
     -webkit-box-orient: vertical;
@@ -471,6 +481,7 @@ footer .foot span {
   }
   .main .story .image {
     padding: 0 1em;
+    width: 100%;
   }
   .main .story .image img {
     margin-top: 1em;
@@ -489,6 +500,9 @@ footer .foot span {
   .crd .cards .card {
     max-width: 100%;
   }
+  .nav {
+    display: none;
+  }
 }
 
 * {
@@ -500,7 +514,7 @@ footer .foot span {
 
 body {
   height: 100%;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   line-height: 1;
 }
 
